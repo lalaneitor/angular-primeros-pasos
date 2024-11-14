@@ -1,0 +1,9 @@
+<form (ngSubmit)="saveCharacter()">
+    <input type="text" placeholder="Nombre del Pj" class="form-control" 
+    [(ngModel)]="character.name" name="name">
+
+    <input type="number" placeholder="Poder" class="form-control"
+     [(ngModel)]="character.power" name="power">
+
+    <button class="btn btn-primary" type="submit">Agregar</button>
+</form>
